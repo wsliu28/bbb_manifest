@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+  <remote name="wsliu28" fetch="git@github.com/wsliu28/"/>
+  <project name="my_metalayer" path="sources/my_metalayer" remote="wsliu28" revision="main">
+  </project>
+
+</manifest>
