@@ -3,7 +3,7 @@
 
   <default sync-j="2"/>
   <remote name="wsliu28" fetch="git@github.com:wsliu28/"/>
-  <project name="my_metalayer1" path="/home/wsliu28/my_metalayer1" remote="wsliu28" revision="main">
+  <project name="my_metalayer" path="sources/my_metalayer" remote="wsliu28" revision="main">
   </project>
 
 </manifest>
