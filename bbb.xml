@@ -2,8 +2,11 @@
 <manifest>
 
   <default sync-j="2"/>
+
+  <remote name="yocto" fetch="https://github.com/yoctoproject"/>
   <remote name="wsliu28" fetch="git@github.com:wsliu28/"/>
-  <project name="my_metalayer" path="sources/my_metalayer" remote="wsliu28" revision="main">
-  </project>
+
+  <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads/kirkstone"/>
+  <project name="my_metalayer" path="sources/my_metalayer" remote="wsliu28" revision="main"/>
 
 </manifest>
